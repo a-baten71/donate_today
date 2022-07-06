@@ -53,19 +53,11 @@ p{
     z-index: 10;    
 }
 
-/* .top-banar h1{
-    font-size: 4rem;
-} */
-
 .top-banar p{
     width: 40rem;
-    /* width: 50%; */
-    /* font-size: 1.2rem; */
     margin-top: 1.3rem;
     margin-bottom: 2rem;
     line-height: 1.6rem;
-
-
 }
 
 .btn-link{
@@ -77,8 +69,7 @@ p{
     font-weight: 700;
     color: white;
     border-radius: 5px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .donate-container{
@@ -95,12 +86,9 @@ p{
 .donate-text{
     text-align: center;
 }
-/* .donate-text h2{
-    font-size: 2.6rem;
-} */
+
 .donate-text p{
     width: 40rem;
-    /* font-size: 1.2rem; */
     margin-top: 1.3rem;
     margin-bottom: 2rem;
     line-height: 1.6rem;
@@ -173,7 +161,6 @@ p{
     height: 18.5rem;
     padding: 2.5rem 1rem;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
-
 }
 
 .box1{
@@ -197,7 +184,7 @@ p{
     font-size: 1.3rem;
 }
 
-.contribute{
+/* .contribute{
     display: flex;
     justify-content: center;
     margin: 0 80px 0 100px;
@@ -235,7 +222,43 @@ p{
     height: 90%;
     width: 70%;
     border-radius: 5px;
+} */
+
+.contribute{
+    text-align: center;
 }
+
+.contribute-top h2{
+    margin-bottom: 20px;
+}
+
+.contribute-top p{
+    padding: 0 150px;
+}
+
+.contribute-top p:nth-child(3){
+    margin: 15px 0 30px 0;
+}
+.contribute-bottom{
+   display: flex;
+   margin: 0 200px;
+}
+
+
+
+.half-width{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.half-width img{
+    width: 80%;
+    height: 400px;
+    margin: 0;
+}
+
 
 .updates{
     margin: 100px 0;
