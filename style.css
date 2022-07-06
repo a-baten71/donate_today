@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2.6rem;
+}
+
+h4{
+
+}
+
+p{
+    font-size: 1.2rem;
+    
+}
+.top-banar-container{
+   background-image: url(/images/donation12.png);
+    width: 100%;
+    height: 38.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+ .overlay{ 
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 38.5rem;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+   
+} 
+
+.top-banar{
+    text-align: center;
+    color: white;
+    z-index: 10;    
+}
+
+/* .top-banar h1{
+    font-size: 4rem;
+} */
+
+.top-banar p{
+    width: 40rem;
+    /* width: 50%; */
+    /* font-size: 1.2rem; */
+    margin-top: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+
+
+}
+
+.btn-link{
+    background-color: tomato;
+    padding: .7rem 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.donate-container{
+    margin-top: 7rem;
+    height: 500px;
+}
+
+.donate-container .donate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate-text{
+    text-align: center;
+}
+/* .donate-text h2{
+    font-size: 2.6rem;
+} */
+.donate-text p{
+    width: 40rem;
+    /* font-size: 1.2rem; */
+    margin-top: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+}
+
+.donate-box{
+    display: flex; 
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.8rem;
+    height: 6.5rem; 
+    background-color: rgba(104, 96, 96, 0.04);
+    margin: .4rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: gray;
+    border-radius: 5px;
+    margin-bottom: 4rem;
+}
+
+.box-marked{
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: rgba(255, 99, 71, .1);
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-area input{
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.donate-plan-container{
+    height: 550px;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.plan-text{
+    text-align: center;
+}
+
+
+.plan-text p{
+    margin-top: 1.3rem;
+    margin-bottom: 2rem;
+    line-height: 1.6rem;
+}
+
+.plan-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-box{
+    width: 20rem;
+    height: 18.5rem;
+    padding: 2.5rem 1rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.box1{
+    background-color: rgba(224, 255, 255, .8);
+}
+
+.box2{
+    background-color:rgba(255, 182, 193, .3);
+}
+
+.box3{
+    background-color:beige;
+}
+
+.margin{
+    margin: 0 2rem;
+}
+
+.plan-box h4{
+    margin: 1.2rem 0;
+    font-size: 1.3rem;
+}
+
+.contribute{
+    display: flex;
+    justify-content: center;
+    margin: 0 80px 0 100px;
+    
+}
+
+.half-width{
+    width: 50%;
+    height: 500px;
+    
+}
+
+.left-width{
+    padding: 50px;
+}
+
+.half-width h2{
+
+}
+
+.half-width p{
+    margin: 15px 0;
+}
+
+.left-width p:nth-child(3){
+    margin-bottom: 2.2rem;
+    
+}
+
+.half-width a{
+   
+}
+
+.half-width img{
+    height: 90%;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.updates{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.updates p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.subscribe-area{
+    width: 700px;
+    height: 180px;
+    background-color: oldlace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-area input, a{
+    border: none;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.subscribe-area input{
+    background-color: lightgray;
+    padding: 12px 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.subscribe-area a{
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    padding: 12px 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+footer{
+    height: 150px;
+    background-color: black;
+    text-align: center;
+}
+
+footer h2{
+    color: crimson;
+    font-style: italic;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: white;
+}
